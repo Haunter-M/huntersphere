@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  overflow-x: hidden;
+  font-family: "Bebas Neue", normal;
+}
+
+.webgl {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+nav{
+  color: #FDF5E6;
+  z-index: 2;
+  position: relative;
+  padding: 4rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 125%;
+}
+nav a{
+  text-decoration: none;
+  color: #FDF5E6;
+  font-weight: normal;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 4rem;
+}
+
+.title{
+  color: #FDF5E6;
+  z-index: 2;
+  position: absolute;
+  font-size: 3rem;
+  left: 50%;
+  top: 20%;
+  transform: translate( -50%, -25%);
+
+}
